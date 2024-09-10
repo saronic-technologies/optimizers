@@ -16,6 +16,7 @@ if __name__ == "__main__":
         description="PyTorch implementation of Distributed Shampoo",
         license="BSD 3-clause",
         packages=find_packages(),
+        package_data={'': ['*']},  # Include all files in all packages
         install_requires=[],
         python_requires=">=3.8",
         classifiers=[
